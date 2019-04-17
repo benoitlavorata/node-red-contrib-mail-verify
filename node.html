@@ -1,0 +1,28 @@
+<script type="text/javascript">
+    RED.nodes.registerType('mail-verify', {
+        category: "web",
+        defaults: {
+            name: {
+                value: "mail-verify"
+            }
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "white-globe.png",
+        color: "#a6bbcf",
+        label: function () {
+            return (this.name || "mail-verify")
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="mail-verify">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="mail-verify">
+
+</script>
