@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-mail-verify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check if a mail address exists or not by contacting SMTP server. Requires port 25 open on server host.",
   "main": "index.js",
   "scripts": {
